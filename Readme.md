@@ -1,5 +1,5 @@
 # 重症监护病人预后预测系统
-
+<img src="https://counter.seku.su/cmoe?name=Patient_Death_Prediction&theme=r34"/>
 ## 项目简介
 这是一个基于机器学习的重症监护病人预后预测系统，可以帮助医生评估病人的死亡风险。系统采用了堆叠集成学习方法，结合了随机森林和LightGBM模型，并支持增量学习功能。
 
