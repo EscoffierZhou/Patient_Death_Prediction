@@ -8,7 +8,7 @@
 这是一个基于机器学习的重症监护病人预后预测系统，可以帮助医生评估病人的死亡风险。系统采用了堆叠集成学习方法，结合了随机森林和LightGBM模型，并支持增量学习功能。
 使用的数据集来源于Kaggle开源数据集:https://www.kaggle.com/datasets/mitishaagarwal/patient
 
-#### **(AI02 - 212 Group project , 项目归属于0413学号组长)**
+**<font color=purple>(AI02 - 212 Group project , 项目归属于0413学号组长)</font>**
 
 >   ```txt
 >   1.对于高风险病人(实际死亡的病人)，模型给出了很高的死广概率(92.81%和95.59%)
@@ -47,6 +47,8 @@
 - 版本控制：Git
 
 ## 系统架构
+**<font color = red>(部分模型文件较大,需要手动点击下载,直接下载zip会丢失模型数据)</font>**
+**<font color = red>(Warning:The model part is saved by LFS, should be download manually)</font>**
 ```
 src/
 ├── backend/
