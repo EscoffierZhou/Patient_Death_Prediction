@@ -61,9 +61,10 @@ src/
 
 - 支持实时增量更新
 
-- ![roc_curve](.\src\backend\model\roc_curve.png)
+- ![roc_curve](src/backend/model/roc_curve.png)
 
-    ![roc_curve](.\src\backend\model\confusion.png)
+- ![confusion_matrix](src/backend/model/confusion.png)
+
 
 ## 安装说明
 1. 克隆项目
