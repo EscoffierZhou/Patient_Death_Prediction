@@ -6,6 +6,7 @@
 
 ## 项目简介
 这是一个基于机器学习的重症监护病人预后预测系统，可以帮助医生评估病人的死亡风险。系统采用了堆叠集成学习方法，结合了随机森林和LightGBM模型，并支持增量学习功能。
+使用的数据集来源于Kaggle开源数据集:https://www.kaggle.com/datasets/mitishaagarwal/patient
 
 >   ```txt
 >   1.对于高风险病人(实际死亡的病人)，模型给出了很高的死广概率(92.81%和95.59%)
@@ -54,7 +55,7 @@ src/
 │   ├── IncrementalLearning.py # 增量学习
 │   └── 0TrainingCode.py # 模型训练
 └── test/
-    ├── test_prediction.py # 预测测试
+    ├── test_prediction.py # 预测测试(自动化脚本)
     └── test_patient_update.py # 更新测试
 ```
 
